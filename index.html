@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Sematic Form</title>
+    <link rel="style.css" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+            <h1>Segmatic Form TO Fill</h1>
+            <br>
+            <form>
+                <fieldset>
+            <legend>Segmatic Form</legend>
+            <label for="email">email :</label>
+            <input type="email" id="email" name="email">
+                    <br>
+                    <label for="name">name :</label>
+                    <input type="text" id="name" name="name">
+                    <br>
+                    <label for="password">password :</label>
+                    <input type="password" id="password" name="password">
+                    <br>
+                    <label for="COUNTRY">COUNTRY :</label>
+                    <select>
+                        <option value="choose the city name">choouse your city</option>
+                        <option value=US>US </option>
+                        <option value="INDIA">INDIA</option>
+                        <option value="GERMANY">GERMANY</option>
+                        <option value="CHINA">CHINA</option>
+                         </select>
+                </fieldset>
+            </form>
+        </center>
+  
+        
+        
+        
+        <div>
+        <form action="#" method="post" id="contactForm">
+    <label for="name">Name
+            <span class="form">*</span></label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="phoneNumber">Phone Number<span class="form">*</span></label>
+    <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9][10]" placeholder="e.g., 1234567890" required>
+
+    <label for="email">Email<span class="form">*</span></label>
+    <input type="email" id="email" name="email" required>
+            
+    <label for="countries">Choose a country</label>
+<select id="countries" name="countries">
+     <option value="select">select country</option>
+    <option value="usa">United States</option>
+    <option value="canada">Canada</option>
+    <option value="uk">United Kingdom</option>
+    <!-- Add more countries as needed -->
+</select>
+
+    <button type="submit">Submit</button>
+</form></div>
+        
+        
+        
+        
+        
+    </body>
+     <style>
+        .form {
+    color: #ff0000;
+    font-weight: 400;
+}
+        /* Add some basic styling for better presentation */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</html>  
